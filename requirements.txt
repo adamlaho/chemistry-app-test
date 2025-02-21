@@ -3,3 +3,6 @@ pubchempy
 pandas
 rdkit
 py3Dmol
+libxrender1
+libxext6
+libsm6
