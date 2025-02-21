@@ -1,6 +1,4 @@
-# 🎈 Blank app template
-
-A simple Streamlit app template for you to modify!
+# 🎈 Built with Python, the Interactive Chemistry App demonstrates how easily engaging apps can be created. Generate random 2D Lewis structures, explore a dynamic periodic table, and view 3D ball‐and‐stick molecules for an interactive introduction to computational chemistry.
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
 
