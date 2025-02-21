@@ -2,4 +2,7 @@ streamlit
 pubchempy
 pandas
 rdkit
+rdkit.Chem
+rdkit.Chem.Draw
+rdkit.Chem.Draw.rdMolDraw2D
 py3Dmol
