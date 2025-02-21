@@ -15,7 +15,7 @@ st.title("🧪 Interactive Chemistry App")
 
 # ===================== 1. Generate a Random Molecule (with Lewis Structure) =====================
 st.header("🔬 Generate a Random Molecule (with Lewis Structure)")
-st.write("💡 Select a set of atoms to create a random molecule (up to 50 attempts).")
+st.write("💡 Select a set of atoms to create a random molecule!")# (up to 50 attempts).")
 
 atom_choices = ["H", "O", "N", "C", "F", "Cl", "Br", "S"]
 selected_atoms = st.multiselect("Choose atoms for the molecule:", atom_choices, default=["C", "H", "O"])
@@ -48,7 +48,7 @@ if selected_atoms:
             break
 
     if valid_mol:
-        st.write(f"**Generated SMILES** (valid after {attempt+1} attempt(s)): {random_smiles_final}")
+        #st.write(f"**Generated SMILES** (valid after {attempt+1} attempt(s)): {random_smiles_final}")
         st.subheader("Lewis Structure")
         img = Draw.MolToImage(valid_mol, size=(300, 300))
         st.image(img)
