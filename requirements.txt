@@ -1,1 +1,6 @@
 streamlit
+pubchempy
+time
+pandas
+rdkit
+py3Dmol
